@@ -36,6 +36,14 @@ public class HandsOnArray {
 
     // Comparando o conteúdo dentro dos arrays
     System.out.println(Arrays.equals(englishClass, mathClass));
+    System.out.println("---------------------------------------");
+
+    String[] spanishClass = new String[]{"Augusto", "Thais", "Mário"};
+    Arrays.sort(spanishClass);
+    
+    List<String> sortedClass = List.of(spanishClass);
+    sortedClass.forEach(System.out::println);
+
 
   }
 }
