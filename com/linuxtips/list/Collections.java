@@ -8,8 +8,6 @@ public class Collections {
         todo.put("shopping", 4);
         todo.put("running", 3);
 
-        var running = todo.get("running");
-
         for(Map.Entry<String, Integer> entry : todo.entrySet()) {
             String key = entry.getKey();
             Integer value = entry.getValue();
