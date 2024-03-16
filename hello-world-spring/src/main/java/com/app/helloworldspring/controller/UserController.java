@@ -5,12 +5,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/hello-world")
-public class FirstController {
-
-    @GetMapping("")
-    public String helloWorld() {
-        return "Hello first endpoint 🥹";
-    }
+@RequestMapping("/user")
+public class UserController {
     
+    @GetMapping("")
+    public String getInformations() {
+        return "Name: Joey Clapton, Age: 24";
+    }
+
 }
