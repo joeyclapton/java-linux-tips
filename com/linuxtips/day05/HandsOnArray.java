@@ -40,7 +40,7 @@ public class HandsOnArray {
 
     String[] spanishClass = new String[]{"Augusto", "Thais", "Mário"};
     Arrays.sort(spanishClass);
-    
+  
     List<String> sortedClass = List.of(spanishClass);
     sortedClass.forEach(System.out::println);
 
